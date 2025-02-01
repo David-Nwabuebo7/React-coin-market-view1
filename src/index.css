@@ -1,0 +1,34 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'poppins',Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body{
+  background: url(../public/bg.jpg);
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+justify-content: center;
+color: white;
+  
+}
+.container{
+  background-color: rgba(17, 25, 40, 0.75);
+  border-radius: 12px;
+  backdrop-filter: blur(19px) saturate(180%);
+  border: 1px solid rgba(255, 255, 225, 0.125);
+  display: flex;
+  flex-direction: column;
+  width: 90vw; /* Ensures responsiveness on smaller screens */
+  max-width: 100%; /* Prevents exceeding the parent width */
+  padding: 2rem; /* Adds sufficient padding */
+  box-sizing: border-box; /* Includes padding in the width */
+  overflow: hidden; /* Hides any unintended overflow */
+ position: relative;
+ bottom: 10px;
+}
+

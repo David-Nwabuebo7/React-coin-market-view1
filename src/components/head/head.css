@@ -1,0 +1,14 @@
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgba(0, 255, 200, 0.952);
+        text-transform: uppercase;
+    }
+
+}
